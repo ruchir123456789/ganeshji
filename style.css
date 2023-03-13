@@ -168,3 +168,72 @@ nav ul li {
 #gif2{
     opacity: 0;
 }
+
+@media only screen and (max-width: 400px) {
+    body {
+      
+    }
+
+    .bottom{
+        position: absolute;
+        top: 128vh;
+        width: 150%;
+    }
+
+    #myProgressBar {
+        width: 70vh;
+        cursor: pointer;
+    }
+
+    .container {
+        position: relative;
+        
+        height: 100vh;
+        font-family: 'Poppins', sans-serif;
+        color:black;
+        margin: 24px 4px;
+        background-color: rgba(110, 107, 107, 0.796);
+        width: 110vw;
+        border-radius: 12px;
+        padding: 20px;
+        box-shadow: #c8c5c1 0px 1px 25px;
+    }
+
+    .songbanner{
+        position: absolute;
+        margin-right: 15px;
+        width: 90vw;
+        height: 56vh;
+        background-color: white;
+        top: 65vh;
+        border-radius: 12px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    nav ul {
+        display: flex;
+        list-style-type: none;
+        height: 10vh;
+        background-color: #2d2f31;
+        align-items: center;
+        justify-content: space;
+        padding: 10px;
+        width: 150vw;
+    }
+    .songitem{
+        height: 50px;
+        display: flex;
+        width: 100vw;
+        margin: 12px 0;
+        background-color: white;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 20px;
+        padding: 10px;
+        
+    
+    }
+  }
