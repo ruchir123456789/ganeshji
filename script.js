@@ -16,12 +16,12 @@ let songItem = Array.from(document.getElementsByClassName("songitem"));
 // let songItemPlay= Array.from(document.getElementsByClassName("songitemplay"));
 let songs = [
     { songName: "song name 1", filePath: "1.m4a", coverPath: "https://c.saavncdn.com/585/Naacho-Naacho-From-Rrr--Hindi-2021-20211110131007-500x500.jpg" },
-    { songName: "song name 2", filePath: "2.mpeg", coverPath: "https://c.saavncdn.com/807/Pathaan-Hindi-2022-20221222104158-500x500.jpg" },
-    { songName: "song name 3", filePath: "3.mpeg", coverPath: "https://c.saavncdn.com/585/Naacho-Naacho-From-Rrr--Hindi-2021-20211110131007-500x500.jpg" },
-    { songName: "song name 4", filePath: "4.mpeg", coverPath: "https://c.saavncdn.com/807/Pathaan-Hindi-2022-20221222104158-500x500.jpg" },
-    { songName: "song name 5", filePath: "5.mpeg", coverPath: "https://c.saavncdn.com/585/Naacho-Naacho-From-Rrr--Hindi-2021-20211110131007-500x500.jpg" },
-    { songName: "song name 6", filePath: "6.mpeg", coverPath: "https://c.saavncdn.com/807/Pathaan-Hindi-2022-20221222104158-500x500.jpg" },
-    { songName: "song name 7", filePath: "7.mpeg", coverPath: "https://c.saavncdn.com/585/Naacho-Naacho-From-Rrr--Hindi-2021-20211110131007-500x500.jpg" }
+    { songName: "song name 2", filePath: "2.m4a", coverPath: "https://c.saavncdn.com/807/Pathaan-Hindi-2022-20221222104158-500x500.jpg" },
+    { songName: "song name 3", filePath: "3.m4a", coverPath: "https://c.saavncdn.com/585/Naacho-Naacho-From-Rrr--Hindi-2021-20211110131007-500x500.jpg" },
+    { songName: "song name 4", filePath: "4.m4a", coverPath: "https://c.saavncdn.com/807/Pathaan-Hindi-2022-20221222104158-500x500.jpg" },
+    { songName: "song name 5", filePath: "5.m4a", coverPath: "https://c.saavncdn.com/585/Naacho-Naacho-From-Rrr--Hindi-2021-20211110131007-500x500.jpg" },
+    { songName: "song name 6", filePath: "6.m4a", coverPath: "https://c.saavncdn.com/807/Pathaan-Hindi-2022-20221222104158-500x500.jpg" },
+    { songName: "song name 7", filePath: "7.m4a", coverPath: "https://c.saavncdn.com/585/Naacho-Naacho-From-Rrr--Hindi-2021-20211110131007-500x500.jpg" }
 ]
 
 songItem.forEach((element,i)=>{
